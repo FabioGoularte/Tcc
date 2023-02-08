@@ -4,7 +4,7 @@ export default function About() {
     return (
         <>
         <div className="container">
-            <h2>Sobre mim</h2>
+            <h2>Sobre a associação</h2>
             <div className="line"></div>
             <p>
                 <b>Olá!</b>

@@ -3,7 +3,7 @@ import './style.css';
 export default function Home() {
     return (
             <div className="home-body">
-                <h2>Hello World!</h2>
+                <h2>Associação São Francisco de Assis</h2>
             </div>
     );
 }

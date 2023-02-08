@@ -3,7 +3,7 @@ import { faGithub, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-sv
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { NavLink } from 'react-router-dom';
-import Perfil from "../../assets/perfil-2.jpeg";
+import Perfil from "../../assets/logo.png";
 import './style.css';
 
 export default function Navbar() {
@@ -14,7 +14,7 @@ export default function Navbar() {
         <div className="navbar-container">
             <div id="navbar">
                 <header>
-                    <NavLink exact to="/" className="nav-link" onClick={() => setShowLinks(false)}><img src={Perfil} alt="perfil1.png" /></NavLink>
+                    <NavLink exact to="/" className="nav-link" onClick={() => setShowLinks(false)}><img src={Perfil} alt="logo.png" /></NavLink>
                     
                     <h1>Fábio Goularte</h1>
                     <h3>Full Stack Developer</h3>
